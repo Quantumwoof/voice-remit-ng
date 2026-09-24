@@ -124,8 +124,9 @@ def main() -> None:
             st.markdown(f"**Intent:** `{reply.intent}`")
             st.markdown(f"### {reply.tool.title}")
             st.markdown(reply.tool.summary)
-            st.success(reply.spoken)
             st.caption(f"🇳🇬 {reply.tool.nigeria_tip}")
+            with st.expander("Spoken-style reply (voice agent)"):
+                st.write(reply.spoken)
 
             details = reply.tool.details
             if "providers" in details:

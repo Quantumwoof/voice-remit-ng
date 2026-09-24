@@ -9,6 +9,8 @@ Built for the [lablab](https://lablab.ai) **AssemblyAI Voice Agent Hackathon**.
 
 MIT licensed · Demo works **without** an API key (`DEMO_MODE=1`).
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ---
 
 ## Problem
@@ -113,6 +115,9 @@ voice-remit-ng/
 ├── requirements.txt
 ├── .env.example
 ├── LICENSE                # MIT
+├── docs/
+│   ├── VoiceRemitNG-cover.png
+│   └── VoiceRemitNG-slides.pdf
 └── voice_remit/
     ├── agent.py           # Intent router
     ├── config.py          # DEMO_MODE / API key

@@ -68,7 +68,6 @@ def main(argv: list[str] | None = None) -> int:
     print(f"Intent: {reply.intent}")
     print(f"Title: {reply.tool.title}")
     print(reply.spoken)
-    print(f"Tip: {reply.tool.nigeria_tip}")
     return 0
 
 
